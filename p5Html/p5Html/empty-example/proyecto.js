@@ -49,11 +49,9 @@ function setup() {
   {
     //guardamos la información de la fila "y" en una constante
     const comcel = row[i].getNum("ComcelProveedorSuscripcion");
-    
-    let datoPriv = comcel;
 
   }
-  console.log(maxDato);
+  
 
   textoH2A = createElement('h2', 'Visualización de preferencia de colegios privados a públicos por localidades');
 
@@ -129,6 +127,8 @@ function mySelectEvent()
   }else if(val=='Sumapaz'){
     comcel = 19;
   }
+
+let datoPriv = comcel;
 
 }
 
